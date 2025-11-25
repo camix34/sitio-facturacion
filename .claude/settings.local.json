@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(php artisan lang:publish:*)",
+      "Bash(cat:*)",
+      "Bash(/usr/bin/php:*)",
+      "Bash(/usr/local/bin/php:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
